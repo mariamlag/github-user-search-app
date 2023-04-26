@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="#font.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | GitHub user search app</title>
+</head>
+<body>
+  <header>
+    <h1>
+      devfinder
+    </h1>
+    <div>
+      <p id="Dark" class="dark">
+        Dark
+      </p>
+      <p id="Light" class="light">
+        Light
+      </p>
+      <div id="icons">
+        <img id="sun" class="sun" src="starter-code/assets/icon-sun.svg" alt="">
+        <img id="moon" class="moon" src="starter-code/assets/icon-moon.svg" alt="">
+      </div>
+    </div>
+  </header>
+
+ <div class="search-div">
+    <div class="search-bar" id="search-bar">
+      <img src="starter-code/assets/icon-search.svg" alt="">
+      <input class="input" id="input" type="text" placeholder="Search GitHub username...">
+      <button class="button" id="button"> Search </button>
+    </div>
+ </div>
+
+<div  class="cont">
+  <div class="container" id="container">
+    <div class="first-div">
+      <div class="div-for-icon-name">
+        <div id="image" class="image">
+          <img class="image" src="starter-code//assets/avatar.png" alt="">
+        </div> 
+        <div class="name-username-data">
+          <div>
+            <p id="name" class="name">
+             The Octocat
+            </p>
+            <p id="username" class="username">
+              @octocat
+            </p>
+          </div>
+          <p class="data" id="data">
+            Joined 25 Jan 2011
+          </p>
+        </div>
+      </div>
+    
+      <p class="about" id="about">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo quas voluptas, quibusdam repellendus fuga.
+      </p>
+    </div>
+  
+    <div class="second-div" id="second-div">
+      <div>
+          <p class="second-div-p">
+            Repos
+          </p>
+   
+          <h1 id="repo" class="number">
+            8
+          </h1>
+    
+      </div>
+      <div>
+        <p class="second-div-p">
+          Followers
+        </p>
+        <h1 class="number" id="followers">
+            3938
+        </h1>
+      </div>
+      <div>
+        <p class="second-div-p">
+          following
+        </p>
+        <h1 id="following" class="number">
+            9
+        </h1>
+      </div>
+    </div>
+  
+    <div class="last-div" id="last-div">
+      <div class="two-loc-web">
+        <div class="locations">
+          <img class="icons-four" src="starter-code/assets/icon-location.svg" alt="">
+          <p id="location">
+            San Francisco
+          </p>
+        </div>
+    
+        <div class="locations">
+          <img class="icons-four" src="starter-code/assets/icon-website.svg" alt="">
+          <p id="website">
+            https://github.blog
+          </p>
+        </div>
+      </div>
+  
+      <div class="two-twit-com">
+        <div class="locations twitter">
+          <img class="icons-four" src="starter-code/assets/icon-twitter.svg" alt="">
+          <p id="twitter">
+            Not Available
+          </p>
+        </div>
+        <div class="locations">
+          <img class="icons-four" src="starter-code/assets/icon-company.svg" alt="">
+          <p id="company">
+            @github
+          </p>
+        </div>
+      </div>
+  
+    </div>
+  
+  </div>
+  
+</div>
+
+
+<script src="github.js"></script>
+</body>
+</html>
